@@ -1,6 +1,3 @@
-## Nginx-服务自动发现
-- [https://github.com/yaozd/nginx.ha.example](https://github.com/yaozd/nginx.ha.example)
-
 # nginx.ha.example
 
 -利用 Nginx 负载均衡实现Spring boot开发的Web 服务器更新不影响访问--nginx实现WEB高可用
@@ -11,8 +8,7 @@
      * 测试：spring boot 是否可以优雅退出--kill application name
      * --serviceUtil.value=AAAAA
      * --server.port=9912
-     * java -jar nginx.ha.example-1.0-SNAPSHOT.jar --serviceUtil.value=AAAAA --server.port=9901
-     * java -jar nginx.ha.example-1.0-SNAPSHOT.jar --serviceUtil.value=BBBBB --server.port=9902
+     * java -jar nginx.ha.example-1.0-SNAPSHOT-exec.jar --serviceUtil.value=AAAAA --server.port=9901
      * java -jar E:\tmp\9912.jar --serviceUtil.value=AAAAA --server.port=9912
 	 * java -jar E:\tmp\9913.jar --serviceUtil.value=BBBBB --server.port=9913
 	 * java -jar E:\tmp\9914.jar --serviceUtil.value=CCCCC --server.port=9914
